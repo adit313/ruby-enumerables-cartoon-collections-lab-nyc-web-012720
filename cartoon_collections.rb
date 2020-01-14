@@ -8,7 +8,7 @@ def summon_captain_planet(planeteers) # code an argument here
   end
 
 def long_planeteer_calls(source) # code an argument here
-  result = source.max_by{
+  result = source.max_by{ |x| x.length}
   if source.max > 'ZZZZ'
     
   end
